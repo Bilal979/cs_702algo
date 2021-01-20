@@ -36,7 +36,7 @@ public class Binarysearch
 		while(!StdIn.isEmpty())
 		{
 			int key=StdIn.readInt();
-			int x=Binarysearch.indexOff(allowlist,key);
+			int x=indexOff(allowlist,key);
 			if(x==-1)
 			StdOut.println(key+ " not found");
 			else{
